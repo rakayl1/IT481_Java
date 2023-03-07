@@ -60,7 +60,10 @@ public class U2A1 extends JFrame {
 			public void actionPerformed(ActionEvent arg0) {
 				try{
 					
+					//Driver class name
 					Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver"); 
+					
+					//Connection string
 					String dbURL =
 			                		"jdbc:sqlserver://NB69004BOB\\SQLEXPRESS;"
 			                        + "database=Northwind;"
